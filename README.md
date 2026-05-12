@@ -116,3 +116,7 @@ Please open an [issue](https://github.com/pepakam/FTPExport.lrplugin/issues) fir
 [MIT](LICENSE) © 2026 Smartech EOOD
 
 Free to use, modify and distribute. See [LICENSE](LICENSE) for details.
+
+---
+
+**Author / Maintainer:** Penka Kamenova ([Smartech EOOD](https://github.com/pepakam))
