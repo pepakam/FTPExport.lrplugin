@@ -1,0 +1,25 @@
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Lua
+*.luac
+
+# Lightroom plugin runtime
+*.lrplugin.log
+
+# Temporary
+*.tmp
+*.bak
+*.old
