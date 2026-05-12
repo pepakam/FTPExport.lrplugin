@@ -113,6 +113,6 @@ Please open an [issue](https://github.com/pepakam/FTPExport.lrplugin/issues) fir
 
 ## License
 
-[MIT](LICENSE) © 2026 Penka Kamenova
+[MIT](LICENSE) © 2026 Smartech EOOD
 
 Free to use, modify and distribute. See [LICENSE](LICENSE) for details.
