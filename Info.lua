@@ -2,7 +2,7 @@ return {
     LrSdkVersion = 6.0,
     LrSdkMinimumVersion = 4.0,
 
-    LrToolkitIdentifier = 'com.yourname.ftpexport',
+    LrToolkitIdentifier = 'com.smartecheood.ftpexport',
     LrPluginName = LOC "$$$/FTPExport/PluginName=FTP Export",
     LrPluginInfoUrl = "https://github.com/pepakam/FTPExport.lrplugin",
 
