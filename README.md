@@ -3,6 +3,11 @@
 Upload your photos directly to an FTP / FTPS / SFTP server from Lightroom Classic via **File → Export**.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Latest Release](https://img.shields.io/github/v/release/pepakam/FTPExport.lrplugin?label=release)](https://github.com/pepakam/FTPExport.lrplugin/releases/latest)
+[![Total Downloads](https://img.shields.io/github/downloads/pepakam/FTPExport.lrplugin/total.svg?label=downloads&color=brightgreen)](https://github.com/pepakam/FTPExport.lrplugin/releases)
+[![Latest Release Downloads](https://img.shields.io/github/downloads/pepakam/FTPExport.lrplugin/latest/total.svg?label=latest%20downloads&color=blue)](https://github.com/pepakam/FTPExport.lrplugin/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/pepakam/FTPExport.lrplugin?style=flat&logo=github)](https://github.com/pepakam/FTPExport.lrplugin/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/pepakam/FTPExport.lrplugin?style=flat&logo=github)](https://github.com/pepakam/FTPExport.lrplugin/network/members)
 [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/pepakam)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/penka.kamenova)
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?logo=paypal)](https://paypal.me/SmartechEOOD)
@@ -24,8 +29,8 @@ Upload your photos directly to an FTP / FTPS / SFTP server from Lightroom Classi
 
 ## Installation (Windows)
 
-1. Download or clone this repository.
-2. Copy the `FTPExport.lrplugin` folder to:
+1. Download the latest **`FTPExport.lrplugin-vX.Y.Z.zip`** from the [Releases page](https://github.com/pepakam/FTPExport.lrplugin/releases/latest).
+2. Unzip it and copy the `FTPExport.lrplugin` folder to:
    ```
    C:\Users\<YourUser>\AppData\Roaming\Adobe\Lightroom\Modules\
    ```
@@ -40,11 +45,12 @@ Upload your photos directly to an FTP / FTPS / SFTP server from Lightroom Classi
 
 ## Installation (macOS)
 
-1. Copy the `FTPExport.lrplugin` folder to:
+1. Download the latest **`FTPExport.lrplugin-vX.Y.Z.zip`** from the [Releases page](https://github.com/pepakam/FTPExport.lrplugin/releases/latest) and unzip it.
+2. Copy the `FTPExport.lrplugin` folder to:
    ```
    ~/Library/Application Support/Adobe/Lightroom/Modules/
    ```
-2. Follow steps 3–6 from the Windows installation.
+3. Follow steps 3–6 from the Windows installation.
 
 > Note: FTPS via WinSCP is Windows-only. On macOS, plain FTP and SFTP work via the built-in Lightroom FTP module.
 

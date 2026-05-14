@@ -1,0 +1,40 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get version from tag
+        id: version
+        run: echo "VERSION=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+
+      - name: Create plugin archive
+        run: |
+          mkdir -p dist/FTPExport.lrplugin
+          rsync -av \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='.gitignore' \
+            --exclude='dist' \
+            ./ dist/FTPExport.lrplugin/
+          cd dist
+          zip -r "../FTPExport.lrplugin-${{ steps.version.outputs.VERSION }}.zip" FTPExport.lrplugin
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: FTP Export ${{ steps.version.outputs.VERSION }}
+          generate_release_notes: true
+          files: |
+            FTPExport.lrplugin-${{ steps.version.outputs.VERSION }}.zip
